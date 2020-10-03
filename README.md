@@ -8,7 +8,7 @@ first laid out in Birdsell et al. (2020).
 
 The root directory has a number of functions that contain the main analytical
 reservoir and economic relationships and commonly-used, global variables.
-These should be imported with
+These should be imported with:
 
 ```
 import economic_functions as EF
@@ -19,20 +19,6 @@ from global_vars import *
 The *./scripts* directory has example problem(s) that show how these functions
 are called.
 
-## Three Constraints
-
-The THM$ approach balances three constraints:
-
-1. Constraint 1 defines a maximum flow rate so that the reservoir's thermal
-capacity is not over-utilized. It is hydro-thermal in nature and is calculated
-with: ```RF.m_max_ResVol(L, b)```.
-2. Constraint 2 defines a maximum flow rate so that the reservoir pressure does
-not lead to hydraulic fracturing (HF). It is hydro-mechanical in nature and is
-calculated with: ```m_max_HF(L , b , k, reservoir_depth = None)```.
-3. Constraint 3 defines the maximum flow rate such that the levelized cost of
-heat (LCOH) is minimized. It is realted to economics and hydro-thermal reservoir
- engineering to a lesser degree.
- It is calculated with: ```RF.mdot_minLCOH(well_cost, transmissivity, Lstar)```
 
 ## Variables
 
@@ -40,7 +26,7 @@ This code relies extensively on global variables, so it is very important to
 keep track of names. The global variables are set to be equal to the values used
 in Table 1 of Birdsell et al. (2020), with the exceptions of: (a) the
 permeability,
-(b) the aquifer thickness, and (c) the depth, which can all change within
+(b) the aquifer thickness, (c) the depth, and (d) the faulting regime (i.e. alphaII) which can all change within
 individual scripts, based on the plots that are generated within the scripts
 functions. The global variables are stored in ```global_vars.py```
 
@@ -74,12 +60,24 @@ else:
     Lstars = Lstars_LCOH
 ```
 
+## Three Constraints
+
+The THM$ approach balances three constraints:
+
+1. Constraint 1 defines a maximum flow rate so that the reservoir's thermal
+capacity is not over-utilized. It is hydro-thermal in nature and is calculated
+with: ```RF.m_max_ResVol(L, b)```.
+2. Constraint 2 defines a maximum flow rate so that the reservoir pressure does
+not lead to hydraulic fracturing (HF). It is hydro-mechanical in nature and is
+calculated with: ```RF.m_max_HF(L , b , k, reservoir_depth = None)```.
+3. Constraint 3 defines the maximum flow rate such that the levelized cost of
+heat (LCOH) is minimized. It is realted to economics and hydro-thermal reservoir
+ engineering to a lesser degree.
+ It is calculated with: ```RF.mdot_minLCOH(well_cost, transmissivity, Lstar)```
+
 ## Contact
 
 To get in contact: https://geg.ethz.ch/daniel-birdsell/
-
-## License
-
 
 
 ## References
