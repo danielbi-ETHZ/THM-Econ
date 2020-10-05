@@ -1,3 +1,7 @@
+################################################################################
+########### © 2020 ETH Zurich, Daniel T. Birdsell ##############################
+################################################################################
+
 ### Define global parameters using units of J, kg, C, s, m
 ### The notation follows Birdsell et al. fairly closely.
 ### Do not change these variable names when calling global_vars from a script.

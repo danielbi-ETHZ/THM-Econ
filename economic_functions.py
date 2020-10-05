@@ -1,3 +1,7 @@
+################################################################################
+########### © 2020 ETH Zurich, Daniel T. Birdsell ##############################
+################################################################################
+
 def Well_cost(reservoir_depth, adjust = None):
     """
     Gives the cost of drilling and construction of one well in 2010 USD.

@@ -1,3 +1,7 @@
+################################################################################
+########### © 2020 ETH Zurich, Daniel T. Birdsell ##############################
+################################################################################
+
 ## For plotting
 ## refer to https://www.rapidtables.com/web/color/brown-color.html
 # blanchedalmond = (255/255.,235/255.,205/255.)
@@ -52,4 +56,3 @@ dstar_kmin_alpha1 = [-496,-465,-453] # the depth of the minimum kmin, for alpha 
 dstar_kmin_alpha08 = [-692,-563,-528] # the depth of the minimum kmin, for alpha = 0.8, b = [10,20,40]
 
 FIGURE_DIRECTORY = '.'
-
