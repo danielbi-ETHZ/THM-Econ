@@ -1,5 +1,5 @@
 ################################################################################
-########### © 2020 ETH Zurich, Daniel T. Birdsell ##############################
+######### © 2020 ETH Zurich, Institute of Geophysics, Daniel T. Birdsell #######
 ################################################################################
 
 ### Define global parameters using units of J, kg, C, s, m
