@@ -144,5 +144,5 @@ mdot_line = 3.3
 plt.plot([np.log10(mdot_line),np.log10(mdot_line)],[ylim_min,ylim_max],
           color = COP2_color,linewidth=normal_width)
 
-plt.savefig(FIGURE_DIRECTORY+'/Fig2.png')
+plt.savefig(FIGURE_DIRECTORY+'/COP_example.png')
 plt.show()

@@ -161,7 +161,7 @@ for alphaII in alpha_vec:
                 plt.xticks(fontsize=tick_font_size)
                 plt.yticks(fontsize=tick_font_size)
                 plt.text(0.0019,-125,'(a)',color='k',fontsize=normal_font_size)
-                plt.savefig(FIGURE_DIRECTORY+'/Fig6a.png')
+                plt.savefig(FIGURE_DIRECTORY+'/LCOH_example_a.png')
 
         ### Plot Figure 6(b) using base case data
         if alphaII == 1.0 and b_count == 1:
@@ -188,6 +188,6 @@ for alphaII in alpha_vec:
             plt.xticks(fontsize=tick_font_size)
             plt.yticks(fontsize=tick_font_size)
             plt.text(0.08,-2700,'(b)',color='k',fontsize=normal_font_size)
-            plt.savefig(FIGURE_DIRECTORY+'/Fig6b.png')
+            plt.savefig(FIGURE_DIRECTORY+'/LCOH_example_b.png')
 
 plt.show()
