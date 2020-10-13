@@ -156,7 +156,7 @@ for alphaII in alpha_vec:
                 plt.legend(leg)
                 plt.xlim([0,.15])
                 plt.grid('on')
-                plt.xlabel(r'LCOH [\$/kWh$_{th}$]',fontsize=label_font_size)
+                plt.xlabel(r'LCOH [\$/kW$_{th}h$]',fontsize=label_font_size)
                 plt.ylabel('Reservoir Depth [m]',fontsize=label_font_size)
                 plt.xticks(fontsize=tick_font_size)
                 plt.yticks(fontsize=tick_font_size)
