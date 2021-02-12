@@ -2,7 +2,7 @@
 
 A thermo-hydro-mechanical-economic (THM$) approach to understand
 high-temperature aquifer thermal energy storage (HT-ATES). This approach was
-first laid out in Birdsell et al. (2020). The code is written in Python 3.7.7.
+first laid out in Birdsell et al. (2021). The code is written in Python 3.7.7.
 
 ## Layout of the directory
 
@@ -82,7 +82,7 @@ To get in contact: https://geg.ethz.ch/daniel-birdsell/
 
 ## References
 
-Birdsell, D.T., Adams, B.M., and Saar, M.O., submitted 2020. Minimum Transmissivity and Optimal Well Spacing and Flow Rate for High-Temperature Aquifer Thermal Energy Storage from Economic and Reservoir-Engineering Constraints. submitted to _Applied Energy_.
+Birdsell, D.T., Adams, B.M., and Saar, M.O., 2021. Minimum Transmissivity and Optimal Well Spacing and Flow Rate for High-Temperature Aquifer Thermal Energy Storage. _Applied Energy_.
 
 <!-- To speed up computations, it is possible to pre-calculate Lstar as a function
 of reservoir_depth and permeability. In this way, the optimal well spacing
