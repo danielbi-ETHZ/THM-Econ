@@ -1,8 +1,11 @@
 # THM$ Code for HT-ATES
 
 A thermo-hydro-mechanical-economic (THM$) approach to understand
-high-temperature aquifer thermal energy storage (HT-ATES). This approach was
-first laid out in Birdsell et al. (2021). The code is written in Python 3.7.7.
+high-temperature aquifer thermal energy storage (HT-ATES).
+While the approach is analytical, 
+it uses Python 3.7.7. to solve implicit equations, interpolate, pass variables,
+plot, etc.
+This approach was first laid out in Birdsell et al. (2021).
 
 ## Layout of the directory
 
